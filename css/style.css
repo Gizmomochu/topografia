@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    line-height: 1, 5;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e6e6ee;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.body__homePage {
+    background-color: rgb(221, 220, 220);
+    margin: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.body__heading {
+    text-align: center;
+    min-height: 25px;
+    padding-bottom: 0px;
+    background-color: rgb(190, 190, 190);
+}
+
+.body__subject {
+    text-align: center;
+    text-shadow: 1px 3px 5px rgb(85 85 85);
+}
+
+.body__text {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2;
+}
+
+.body__image {
+    max-width: 95%;
+    max-height: 95%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    border: 10px inset #5b985d;
+}
+
+.body__aside {
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.body__rules {
+    line-height: 2;
+    background-color: rgb(224, 170, 170);
+}
+
+.body__list {
+    padding-left: 80px;
+}
+
+.body__footer {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.body__link {
+    color: darkolivegreen;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+
+.body__link:focus {
+    outline: 4px solid darkgreen;
+}
+
+.body__link:hover {
+    color: darkolivegreen;
+    border-bottom: 3px solid;
+    outline: none;
+}
+
+.body__link:active {
+    color: darkred;
+}
+
+.body__image-akHide {
+    display: none;
+}
+
+.body__image-soczewkaHide {
+    display: none;
+}

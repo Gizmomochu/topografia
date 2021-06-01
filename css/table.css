@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.tableCell {
+    border: 1px solid;
+}
+
+.tableHeader {
+    background-color: darkolivegreen;
+}
+
+.tableRow:hover {
+    background: rgb(175 216 177);
+}
